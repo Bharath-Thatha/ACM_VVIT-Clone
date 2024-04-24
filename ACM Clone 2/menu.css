@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu_bar{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#img{
+    height: 80px;
+    padding-top: 2px;
+    width: 270px;
+}
+a{
+    color: white;
+    padding-bottom: 40px;
+    text-decoration: none;
+}
+.outer_box{
+    background-color:white;
+    width: 170px;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-top: 30px;
+    display: none;
+}
+.outer_box li{
+    padding: 10px;
+    list-style: circle;
+}
+.outer_box a{
+    color: rgb(12, 12, 12);
+}
+.title a:hover{
+    color:#02aed6;
+    z-index: 999;
+}
+.title:hover .outer_box{
+    display: block;
+    border-bottom: 2px solid #02aed6;
+    position: absolute;
+} 
+.fa-facebook{
+    padding-left: 5px;
+}
+.fa-brands{
+    font-size: 20px;
+    padding-right: 5px;
+}
+/* .body{
+    ;
+} */
+
+/*                                          footer    Styling                             */
+.body{/*  To seperate header and footer*/
+    min-height: 100vh;
+}
+.foot{
+    background-color: #262626;
+    height: 540px;
+    color: white;
+    font-size: 20px;
+}
+.foot div a:hover{
+    color: #02aed6;
+    text-decoration: underline;
+}
+.foot_items{
+   display: flex;
+}
+.content{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.foot .foot_items img {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.foot .foot_items img , .foot_items i{
+    margin-left: 40px;
+} 
+#copyright{
+    background-color: black;
+    /* margin-top: 30px; */
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro{
+    display: flex;
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
+    margin-bottom: 80px;
+    border-bottom: 0.5px solid rgba(0,0,0,0.2);
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    height: 200px;
+    background-color: #fbfbfb;
+    justify-content: center;
+    align-items: center;
+}
+
+.spardha_intro{
+    font-size: 20px;
+    padding-left: 20px;
+    margin: 40px;
+    color: #003366;
+}
+.spardha_intro h1{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+.spardha_intro p{
+    margin-bottom: 80px;
+}
+.activities_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00ccff;
+    height: 80px;
+    color: white;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 60px;
+}
+.img_list{
+    text-align: center;
+}
+.img_list p{
+    padding-top: 30px;
+}
+.img_list .date{
+    color: #003366;
+    font-size: 20px;
+}
+.img_list .act_name{
+    color: #02aed6;
+    font-size: 24px;
+}
+.img_item{
+    width: 270px;
+    height: 200px;
+    padding-top: 30px;
+}
+.activities{
+    border-top: 1px solid rgba(0,0,0,0.2);
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1250px;
+    margin-bottom: 200px;
+}
+/* .vvit_intro{
+    height: 200px;
+} */
+.vvit_intro h1{
+    margin-top: 50px;
+    color: #003366;
+    text-decoration: underline;
+    text-align: center;  
+}
+.vvit_intro h3{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #003366;
+    text-decoration: underline;
+    text-align: center;
+}
+.vvit_intro p{
+    margin: 50px;
+    color: #003366;
+    font-size: 20px;
+}
+.vvit_imgs{
+    display: flex;
+     justify-content: center;
+    margin: 50px;
+}
+.vvit_imgs img{
+    height: 220px; 
+    width: 500px;
+}
+.home_desc{
+    margin: 50px;
+}
+.home_desc h1{
+    color: #00ccff;
+    margin-bottom: 30px;
+}
+.home_desc p{
+    color: #003366;
+    margin-bottom: 40px;
+    font-size: 23px;
+}
+.conc{
+    margin: 50px;
+    padding-bottom: 100px;
+    /* margin-bottom: 300px; */
+}
+.conc label{
+    font-family: sans-serif;
+    font-size: 32px;
+    color: rgba(0,0,0,0.85);
+}
+.landing h1{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    color: #02aed6;
+    font-family: Arial;
+    font-size: 30px;
+}
+.landing #background{
+    height: 550px;
+    width: 100%;
+}
+.landing #acm_logo{
+    position: absolute;
+    top: 165px;
+    left: 800px;
+}
