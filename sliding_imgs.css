@@ -1,0 +1,27 @@
+.year{
+    height: 30px;
+    display: flex;
+    color: #02aed6;
+    justify-content: center;
+    align-items: center;
+
+}
+.slide_imgs{
+    margin: 50px;
+    display: flex;
+    overflow-x: scroll;
+}
+.img_item{
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+}
+.slide_box{
+    margin-bottom: 200px;
+}
+.placing_imgs{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
